@@ -56,26 +56,28 @@ public class Runner {
                                 ShoppingCar[][] venta = homeController.agregarShoppingCar(cliente,manga);
                                 for (int i = 0; i < venta.length; i++) {
                                     for (int j = 0; j < venta[i].length; j++) {
-                                        System.out.println("args = " + venta[i][j]);
+                                        System.out.println(venta[i][j]);
                                     }
                                 }
                                 break;
+                            case "0":
+                                System.exit(0);
+                                status = true;
                             default:
-                                throw new IllegalStateException("Unexpected value: " + option);
+                                System.out.println("La opcion selecionada no es correcta");
                         }
                     }else{
                         System.out.println("Credenciales invalidas");
                     }
                     break;
-                case "2":
-                    break;
+                case "0":
+                    System.exit(0);
+                    status = true;
                 default:
-                    System.out.println("Opcion seleciona no es la correcta");
+                    System.out.println("La opcion selecionada no es correcta");
 
             }
 
-
-            status = true;
         }while (!status);
     }
 }
