@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ComicMania:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ComicMania_jar</output-path>
+    <root id="archive" name="ComicMania.jar">
+      <element id="module-output" name="ComicMania" />
+    </root>
+  </artifact>
+</component>
