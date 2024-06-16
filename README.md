@@ -2,7 +2,7 @@
 
 Bienvenido al sistema de venta de cómics. Este proyecto es una aplicación de consola que permite gestionar la venta de cómics, incluyendo la adición de nuevos títulos, la gestión de inventario y el procesamiento de ventas.
 
-![Sistema de Venta de Cómics](images/comic_store.png)
+![Sistema de Venta de Cómics]([images/comic_store.png](https://github.com/EndoRodrigo/ComicMania/blob/master/src/manga.png))
 
 ## Características
 
