@@ -15,22 +15,16 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu máquina local:
 
 1. Clona este repositorio:
     ```sh
-    git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+    git clone https://github.com/EndoRodrigo/ComicMania.git
     ```
 
 2. Navega al directorio del proyecto:
     ```sh
-    cd nombre-del-repositorio
+    cd ComicMania
     ```
-
-3. Instala las dependencias necesarias (si aplica, por ejemplo, si usas Python y pip):
-    ```sh
-    pip install -r requirements.txt
-    ```
-
 4. Ejecuta la aplicación:
     ```sh
-    python main.py
+    java Runner.java
     ```
 
 ## Uso
@@ -53,15 +47,5 @@ Una vez que la aplicación esté en funcionamiento, puedes utilizar las siguient
 3. Realiza tus cambios y haz commit de ellos (`git commit -am 'Añadir nueva característica'`).
 4. Envía tus cambios a tu fork (`git push origin feature/nueva-caracteristica`).
 5. Abre un Pull Request.
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Para más información, consulta el archivo [LICENSE](LICENSE).
-
-## Contacto
-
-Para más información, sugerencias o problemas, no dudes en contactarnos a través de [tu-email@ejemplo.com](mailto:tu-email@ejemplo.com).
-
----
 
 ¡Gracias por utilizar nuestro sistema de venta de cómics!
